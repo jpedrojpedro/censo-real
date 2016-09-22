@@ -1,0 +1,3 @@
+%ul
+  - @capitals.each do |capital|
+    %li= link_to(capital.city, capital_candidates_path(capital))
